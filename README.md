@@ -1,7 +1,7 @@
 # Requirements
 
 git
-alacritty
+alacritty-git
 starship
 ttf-jetbrains-mono-nerd
 zsh
