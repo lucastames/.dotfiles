@@ -1,9 +1,11 @@
 # Requirements
 
-git
+awesome-git
 alacritty-git
+picom-git
+git
 starship
 ttf-jetbrains-mono-nerd
 zsh
-picom-git
 zinit
+fastfetch
