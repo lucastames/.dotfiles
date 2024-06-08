@@ -9,3 +9,4 @@ ttf-jetbrains-mono-nerd
 zsh
 zinit
 fastfetch
+feh

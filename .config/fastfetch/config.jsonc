@@ -22,8 +22,8 @@
     },
     "break",
     {
-      "key": "   OS           ",
-      "keyColor": "red",
+      "key": "   OS           ",
+      "keyColor": "cyan",
       "type": "os",
     },
     {
