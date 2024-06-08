@@ -1,0 +1,29 @@
+[user]
+	email = tamess@protonmail.com
+	name = Lucas Tames
+  
+[init]
+  defaultBranch = main
+
+[github]
+  user = LTames
+
+[color "branch"]
+  local = yellow
+  remote = green
+
+[blame]
+  coloring = highlightRecent
+
+[core]
+  editor = nvim
+  pager = cat
+
+[color "diff"]
+  meta = yellow bold
+
+[color "status"]
+  added = yellow
+  changed = green
+  untracked = cyan
+
