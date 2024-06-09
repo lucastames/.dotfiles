@@ -1,5 +1,7 @@
-add_newline = true 
 palette = "catppuccin_macchiato"
+add_newline = false
+format = "$directory$character"
+right_format = "$all"
 
 [directory]
 read_only = " "
@@ -15,6 +17,7 @@ disabled = true
 
 [git_branch]
 symbol = " "
+format =  "[$symbol$branch(:$remote_branch)]($style) "
 
 [docker_context]
 symbol = " "

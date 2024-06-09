@@ -1,5 +1,11 @@
+# Todo
+
+- awesomewm config
+- neovim config
+
 # Requirements
 
+stow
 awesome-git
 alacritty-git
 picom-git
@@ -13,3 +19,5 @@ feh
 github-cli
 rofi
 papirus-icon-theme
+tmux
+tmux-plugin-manager
