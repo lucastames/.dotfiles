@@ -10,3 +10,6 @@ zsh
 zinit
 fastfetch
 feh
+github-cli
+rofi
+papirus-icon-theme

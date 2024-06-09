@@ -5,6 +5,7 @@ alias alacrittycfg="nvim ~/.config/alacritty/alacritty.toml"
 alias starshipcfg="nvim ~/.config/starship.toml"
 alias zshcfg="nvim ~/.zshrc"
 alias ffcfg="nvim ~/.config/fastfetch/config.jsonc"
+alias roficfg="nvim ~/.config/rofi/config.rasi"
 
 alias ff="fastfetch"
 
@@ -18,5 +19,6 @@ bindkey "^[[A" history-substring-search-up
 bindkey "^[[B" history-substring-search-down
 
 # starship
+export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
 eval "$(starship init zsh)"
 
