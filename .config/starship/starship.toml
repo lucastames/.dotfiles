@@ -1,5 +1,5 @@
 palette = "catppuccin_macchiato"
-add_newline = false
+add_newline = true
 format = "$directory$character"
 right_format = "$all"
 
@@ -8,6 +8,7 @@ read_only = " "
 truncation_length = 10
 truncation_symbol =  ".../"
 truncate_to_repo = false
+format = '[](fg:surface1)[$path](fg:text bg:surface1 bold)[█](fg:surface1)[](fg:blue bg:surface1)[ ](fg:mantle bg:blue italic)[](fg:blue) '
 
 [git_status]
 disabled = true
