@@ -1,6 +1,6 @@
 # aliases
 alias vim="nvim"
-alias picomcfg="nvim ~/.config/picom.conf"
+alias picomcfg="nvim ~/.config/picom/picom.conf"
 alias alacrittycfg="nvim ~/.config/alacritty/alacritty.toml"
 alias starshipcfg="nvim ~/.config/starship/starship.toml"
 alias zshcfg="nvim ~/.zshrc"

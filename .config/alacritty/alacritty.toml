@@ -6,7 +6,7 @@ import = [
 decorations = "None"
 dynamic_padding = true
 dynamic_title = false
-opacity = 0.90
+opacity = 0.93
 title = "Alacritty"
 
 [window.padding]
