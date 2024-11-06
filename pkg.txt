@@ -1,0 +1,8 @@
+ripgrep discord fd neovim nodejs npm brave-bin docker docker-compose insomnia-bin
+
+maven + jdk
+
+TODO:
+  - set zsh to default shell
+  - install lazyvim
+  - enable docker service
