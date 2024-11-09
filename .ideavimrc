@@ -1,0 +1,51 @@
+" Set the leader key to space
+let mapleader = " "
+
+set relativenumber
+set hlsearch
+set ideajoin
+set surround
+set commentary
+set multiple-cursors
+set history=1000
+set visualbell " set noerrorbells
+set incsearch " Highlight search results when typing
+set clipboard=unnamedplus
+set ignorecase " Ignore case when searching
+set smartcase " If there is an uppercase in your search term
+
+set which-key
+set notimeout
+
+set highlightedyank
+let g:highlightedyank_highlight_color = "rgb(137, 220, 235, 120)"
+
+set NERDTree
+nnoremap <leader>e :NERDTreeToggle<CR>
+nnoremap <C-h> :NERDTreeFocus<CR>
+let g:NERDTreeMapQuit = "<leader>e"
+
+nmap <C-l> <Action>(FocusEditor)
+
+nmap <S-h> <Action>(PreviousTab)
+nmap <S-l> <Action>(NextTab)
+
+nmap [e <Action>(GotoPreviousError)
+nmap ]e <Action>(GotoNextError)
+
+nmap <leader>bd <Action>(CloseEditor)
+nmap <leader>bo <Action>(CloseAllEditorsButActive)
+
+nmap <leader>ff <Action>(GotoFile)
+nmap <leader>/ <Action>(FindInPath)
+
+nmap <leader>cf <Action>(ReformatCode)<Action>(OptimizeImports)
+
+map <leader>p <Action>(ParameterInfo)
+
+map <A-j> <Action>(MoveLineDown)
+map <A-k> <Action>(MoveLineUp)
+
+nmap<C-z> <Action>(ToggleDistractionFreeMode)
+
+nmap <leader>gg <Action>(Generate)
