@@ -24,13 +24,16 @@ cd yay-bin
 makepkg -si
 ```
 
-### Required Packages
+### Packages
 
 ```bash
-yay -S stow awesome-git alacritty-git picom git starship ttf-jetbrains-mono-nerd zsh zinit fastfetch feh github-cli rofi papirus-icon-theme tmux tmux-plugin-manager
+yay -S stow awesome-git alacritty-git picom git starship ttf-jetbrains-mono-nerd zsh zinit fastfetch feh github-cli rofi papirus-icon-theme tmux tmux-plugin-manager ripgrep discord fd neovim nodejs npm brave-bin docker docker-compose insomnia-bin flameshot maven jdk21-openjdk
 ```
 
 ## Todo
 
 - **Neovim config**
 - **AwesomeWM config**
+
+[comment]: <> (sudo systemctl enable docker --now)
+[comment]: <> (chsh -s /usr/bin/zsh)
