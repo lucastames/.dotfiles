@@ -1,8 +1,6 @@
-ripgrep discord fd neovim nodejs npm brave-bin docker docker-compose insomnia-bin
+ripgrep discord fd neovim nodejs npm brave-bin docker docker-compose insomnia-bin flameshot maven jdk21-openjdk
 
-maven + jdk
+sudo systemctl enable docker --now
 
-TODO:
-  - set zsh to default shell
-  - install lazyvim
-  - enable docker service
+chsh -s /usr/bin/zsh
+
